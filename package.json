@@ -1,0 +1,16 @@
+{
+  "name": "pwamapapplinks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "host": "npx http-server -p 8081 -c-1",
+    "ngrok": "ngrok http 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "http-server": "^14.1.1"
+  }
+}
